@@ -1,4 +1,4 @@
-package com.gcsyzy.chatbot.api.domain;
+package com.gcsyzy.chatbot.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
