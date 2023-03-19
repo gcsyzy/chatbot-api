@@ -142,5 +142,6 @@
     <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.7.20" level="project" />
     <orderEntry type="module" module-name="chatbot-api-domain" />
     <orderEntry type="module" module-name="chatbot-api-application" />
+    <orderEntry type="module" module-name="chatbot-api-common" />
   </component>
 </module>

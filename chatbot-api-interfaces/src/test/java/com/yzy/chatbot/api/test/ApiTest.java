@@ -74,13 +74,13 @@ public class ApiTest {
 ////    }'
         HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
         post.addHeader("Content-Type", "application/json");
-        post.addHeader("Authorization", "Bearer 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");
+        post.addHeader("Authorization", "Bearer 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");
 
         String paramJson = "{\n" +
-                "  \"model\": \"gpt-3.5-turbo\",\n" +
-                "  \"messages\": [{\"role\": \"user\", \"content\": \"Java应届生要掌握哪些专业技能？\"}],\n" +
-                "  \"temperature\": 0.7\n" +
-                "}";
+                "     \"model\": \"gpt-3.5-turbo\",\n" +
+                "     \"messages\": [{\"role\": \"user\", \"content\": \"Java基础包含什么？\"}],\n" +
+                "     \"temperature\": 0.7\n" +
+                "   }";
 
         StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
         post.setEntity(stringEntity);

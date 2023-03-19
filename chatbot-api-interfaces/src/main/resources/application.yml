@@ -2,6 +2,7 @@ server:
   port: 9090
 
 chatbot-api:
+  groupName: ChatGPT AI 问答助手
   groupId: 48884885154588
   cookie: UM_distinctid=186cf6fc7d54ed-01cb9d76fd7b75-7452547c-144000-186cf6fc7d661c; sensorsdata2015jssdkcross={"distinct_id":"184221542188112","first_id":"18696355d33287-07ad0df9f5bef6c-74525471-1327104-18696355d3464b","props":{"$latest_traffic_source_type":"直接流量","$latest_search_keyword":"未取到值_直接打开","$latest_referrer":""},"identities":"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg2OTYzNTVkMzMyODctMDdhZDBkZjlmNWJlZjZjLTc0NTI1NDcxLTEzMjcxMDQtMTg2OTYzNTVkMzQ2NGIiLCIkaWRlbnRpdHlfbG9naW5faWQiOiIxODQyMjE1NDIxODgxMTIifQ==","history_login_id":{"name":"$identity_login_id","value":"184221542188112"},"$device_id":"18696355d33287-07ad0df9f5bef6c-74525471-1327104-18696355d3464b"}; zsxqsessionid=28e17db461dd81adc5a2ba12f4d4f23c; zsxq_access_token=D0F38907-A3B3-ACF1-F3C1-7DE1FE5E3F9F_CDB3F064FD906290; abtest_env=beta
-  openAiKey: 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
+  openAiKey: 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
